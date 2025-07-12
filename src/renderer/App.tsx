@@ -25,7 +25,7 @@ function Main() {
   const regenerate = () => {
     return passGen({
       numbers,
-      symbols, // Disable symbols
+      symbols,
       punctuation: symbols,
       uppercase: true,
       lowercase: true,
@@ -53,7 +53,7 @@ function Main() {
               aria-label="Default"
               valueLabelDisplay="on"
               size="small"
-              onChange={(e, newValue) => setLength(newValue as number)}
+              onChange={(_, newValue) => setLength(newValue as number)}
             />
           </div>
           <div className="checkBtnsCont">

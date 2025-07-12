@@ -8,9 +8,9 @@
     "linux",
     "windows"
   ],
-  "homepage": "TBU url",
+  "homepage": "https://github.com/shturnev/sht-pass-gen",
   "bugs": {
-    "url": "TBU url"
+    "url": "https://github.com/shturnev/sht-pass-gen/issues"
   },
   "repository": {
     "type": "git",
@@ -234,8 +234,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "shturnev",
+      "repo": "sht-pass-gen"
     }
   },
   "devEngines": {
