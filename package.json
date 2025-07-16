@@ -8,9 +8,9 @@
     "linux",
     "windows"
   ],
-  "homepage": "TBU url",
+  "homepage": "https://github.com/shturnev/sht-pass-gen",
   "bugs": {
-    "url": "TBU url"
+    "url": "https://github.com/shturnev/sht-pass-gen/issues"
   },
   "repository": {
     "type": "git",
@@ -168,7 +168,7 @@
     "webpack-merge": "^6.0.1"
   },
   "build": {
-    "productName": "pass-gen",
+    "productName": "Password Generator",
     "appId": "com.shturnev.pass-gen",
     "asar": true,
     "afterSign": ".erb/scripts/notarize.js",
@@ -218,11 +218,7 @@
       ],
       "category": "Development",
       "description": "Simple password generation app (GUI version)",
-      "icon": "assets/icons/256x256.png",
-      "desktop": {
-        "Name": "pass-gen",
-        "Icon": "assets/icons/256x256.png"
-      }
+      "executableArgs": [ "--no-sandbox" ]
     },
     "directories": {
       "app": "release/app",
@@ -234,8 +230,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "shturnev",
+      "repo": "sht-pass-gen"
     }
   },
   "devEngines": {
